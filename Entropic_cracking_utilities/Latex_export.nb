@@ -1,0 +1,69 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1908,         61]
+NotebookOptionsPosition[      1606,         48]
+NotebookOutlinePosition[      1956,         63]
+CellTagsIndexPosition[      1913,         60]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<plottofin.eps\>\"", ",", 
+    RowBox[{"Plot", "[", 
+     RowBox[{
+      RowBox[{"1", "-", 
+       RowBox[{"Exp", "[", 
+        RowBox[{"-", "x"}], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "0", ",", "3"}], "}"}], ",", 
+      RowBox[{"LabelStyle", "\[Rule]", 
+       RowBox[{"Directive", "[", 
+        RowBox[{
+         RowBox[{"FontSize", "\[Rule]", "20"}], ",", 
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Latin Modern Roman\>\""}]}], 
+        "]"}]}], ",", 
+      RowBox[{"AxesLabel", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<xlabel\>\"", ",", "\"\<ylabel\>\""}], "}"}]}]}], "]"}]}],
+    "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.7854324545041857`*^9, 3.785432454548818*^9}, {
+  3.7854339830873637`*^9, 3.78543398569083*^9}, {3.7854378913294587`*^9, 
+  3.7854379006874275`*^9}, {3.785438388035909*^9, 3.785438398587102*^9}, {
+  3.7854385851887836`*^9, 
+  3.7854385887457094`*^9}},ExpressionUUID->"9c3e6d5b-efff-4dcd-853f-\
+0eea3e6bdb80"]
+},
+WindowSize->{1546, 817},
+WindowMargins->{{-13, Automatic}, {Automatic, 111}},
+FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1044, 26, 28, "Input",ExpressionUUID->"9c3e6d5b-efff-4dcd-853f-0eea3e6bdb80"]
+}
+]
+*)
+
